@@ -1,0 +1,30 @@
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        int MyValue = 10000;
+        int MyMinValue = Integer.MIN_VALUE;
+        int MyMaxValue = Integer.MAX_VALUE;
+        System.out.println("My Minimum Value =" + MyMinValue);
+        System.out.println("My Maximum Value =" + MyMaxValue);
+        System.out.println("My Minimum Value Busted =" + (MyMinValue - 1)); //system overflow
+        System.out.println("My Maximum Value Busted =" + (MyMaxValue + 1)); //system overflow
+
+        byte MyMinValueByte = Byte.MIN_VALUE;
+        byte MyMaxValueByte = Byte.MAX_VALUE;
+        System.out.println("My Min Value of Byte =" + MyMinValueByte);
+        System.out.println("My Max Value of Byte =" + MyMaxValueByte);
+
+        short MyMinValueshort = Short.MIN_VALUE;
+        short MyMaxValueshort = Short.MAX_VALUE;
+        System.out.println("My Min Value for short =" + MyMinValueshort);
+        System.out.println("My Max Value for short =" + MyMaxValueshort);
+
+        long MyLongValue = 100L;
+        long MyMinValuelong = Long.MIN_VALUE;
+        long MyMaxValuelong = Long.MAX_VALUE;
+        System.out.println("My Min Value of long =" + MyMinValuelong);
+        System.out.println("My Max Value of long =" + MyMaxValuelong);
+    }
+ }   
+        
